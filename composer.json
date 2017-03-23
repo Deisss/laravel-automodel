@@ -1,0 +1,20 @@
+{
+    "name": "deisss/automodel",
+    "description": "Database to Models generator for Laravel 5+",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Deisss",
+            "email": "deisss@free.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Deisss\\Automodel\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
