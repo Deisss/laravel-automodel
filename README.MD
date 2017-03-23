@@ -38,8 +38,8 @@ we edit instead the provider in ```app/Providers/AppServiceProvider.php```, like
 
 public function register()
 {
-    if ($this->app->environment() == 'local') {
-        $this->app->register('Deisss\Automodel\Providers\AutomodelServiceProvider');
+    if ($this->app->environment() !== 'production') {
+        $this->app->register(\Deisss\Automodel\Providers\AutomodelServiceProvider::class);
     }
 }
 ```
