@@ -115,7 +115,7 @@ class AutomodelTable extends AbstractGeneratorCommand
                 if ($relationship->type === 'belongsToMany') {
                     // There is no source key...
                     if (!empty($targetField)) {
-                        if ($targetField !== $relationship->foreign_key && $targetField !== $relationship->other_key) {
+                        if ($targetField !== $relationship->other_key) {
                             $valid = false;
                         }
                     }
