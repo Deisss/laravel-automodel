@@ -105,7 +105,7 @@ Let's explain a little bit more about this file.
 
 ## Understanding the .schema file
 
-This section has been moved to the [wiki of this project](Understanding-.schema-file-structure).
+This section has been moved to the [wiki of this project](https://github.com/Deisss/laravel-automodel/wiki/Understanding-.schema-file-structure).
 
 
 
@@ -113,7 +113,7 @@ This section has been moved to the [wiki of this project](Understanding-.schema-
 
 We cover only "how to start" with this tutorial, to keep things clear and easy.
 
-But if you take a look at the Wiki, [there is a lot more to discover](home)...
+But if you take a look at the Wiki, [there is a lot more to discover](https://github.com/Deisss/laravel-automodel/wiki)...
 
 
 ## License
