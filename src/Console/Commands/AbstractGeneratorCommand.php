@@ -291,7 +291,7 @@ abstract class AbstractGeneratorCommand extends Command
             }
         }
 
-        return 'app'.DIRECTORY_SEPARATOR.'Models';
+        return 'app/Models';
     }
 
     /**

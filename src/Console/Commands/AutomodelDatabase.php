@@ -292,7 +292,8 @@ class AutomodelDatabase extends AbstractGeneratorCommand
 
         $database  = $this->getDatabase();
         $schema    = $this->getSchemaContent();
-        $folder    = 'app'.DIRECTORY_SEPARATOR.'Models';
+        // We use "/" here as it's compatible both in Windows and Linux.
+        $folder    = 'app/Models';
         $namespace = 'App\Models';
         $tables    = $this->getTables($database);
 
