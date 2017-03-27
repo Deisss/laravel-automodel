@@ -147,7 +147,7 @@ class {{$name}} extends @hasSection('custom-extends') @yield('custom-extends') @
 		)@php
 			if (!empty($foreignKey->columns)) {
 				echo "\n";
-				echo '->with(\''.implode("', '", $foreignKey->columns).'\')';
+				echo '->withPivot(\''.implode("', '", $foreignKey->columns).'\')';
 			}
 			if ($foreignKey->has_deleted_at) {
 				echo "\n";
